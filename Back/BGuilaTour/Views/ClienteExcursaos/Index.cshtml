@@ -1,0 +1,41 @@
+﻿@model IEnumerable<BGuilaTour.Models.ClienteExcursao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NClienteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NExcursaoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NClienteNavigation.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NExcursaoNavigation.Destino)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdClieEx">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdClieEx">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdClieEx">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

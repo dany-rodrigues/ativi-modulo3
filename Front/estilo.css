@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+/*home*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: initial;
+    width: 100vw;
+    color: #000;
+    background-image: radial-gradient(circle, #6b90af, #00aecc, #00cbbe, #00e182, #a8eb12);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left bottom, #051937, #004d7a, #008793);
+    
+}
+
+#logo{
+    margin: 15px;
+}
+
+ header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li{
+    margin: 0 30px;
+    color: #000;
+    background-image: radial-gradient(circle,  #00cbbe, #a8eb12);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bolder;
+    border: 0;
+}
+
+.header-content{
+    max-width: 400px;
+    margin: 120px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.onibus{
+    display: inline;
+    position:absolute;
+	left:50%;
+	top:10%;
+    
+}
+
+img{
+    max-width: 100%;
+   }
+   
+   #bloco img{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+   }
+   #bloco img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+   }
+
+.reveillon{
+    right: 400px;
+    height: 200px;
+    top:10%;
+}
+
+button{
+    background: radial-gradient(circle,  #00cbbe, #a8eb12);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bolder;
+    border: 0;
+}
+
+
+
+
+
+.companheiro, h1{
+    text-align: center;
+}
+
+.amigos{
+    width: 500px;
+    margin: 100px;
+    border-radius: 10%; 
+    border: 10px solid #a8eb12;
+}
+
+.textoamigos{
+
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+    background: radial-gradient(circle,  #00cbbe, #a8eb12);
+    border-radius: 10%;
+    
+    
+}
+.amigos, .textoamigos{
+    display: inline-block;
+    align-items: top;
+    
+}
+
+
+.card-h1{
+   text-align: center;
+}
+
+.container{
+    display: inline-block;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(to right top, #00bdfd, #00cefc, #00dce4, #00e6b9, #00ec80, #45ef78, #63f271, #7bf46a, #5bf896, #43fbbb, #43fcda, #5ffbf1);
+    margin: 100px;
+    border-radius: 10%;
+}
+.card-img{
+    width: 300px;
+    height: 190px;
+    
+}
+
+.card-container{
+    text-align: center;
+   
+}
+
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#card1 {
+    float:left;
+   
+}
+
+#card2{
+    display: inline-block;
+    margin:100px auto;
+   
+}
+
+#card3 {
+    float:right;
+   
+}
+
+
+
+/*-----------------fim home------------------*/
+
+
+
+/*-----------------Excursão------------------*/
+
+
+.card-imgEx{
+    margin: 100px;
+    text-align: center;
+}
+.card-imgEx, .dex{
+    display: inline-block    
+}
+
+
+
+
+
+
+
+
+form {
+    
+    margin: 100px auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  form div div {
+    margin-top: 1em;
+  }
+
+  label {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+
+input, select{
+  display: inline-block;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  text-align: center;
+  color: #6b90af;
+}
+
+input, textarea {
+ 
+  font: 1em sans-serif;
+
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  
+  border-color: #000;
+}
+
+textarea {
+  
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+ 
+  padding-right: 50px;
+  margin: 20px;
+}
+
+footer{
+    
+
+   
+    background: radial-gradient(circle, #6b90af, #00aecc, #00cbbe, #00e182, #a8eb12);
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: 0;
+    text-align: center;
+
+    
+}
+
+
+/*responsividade*/
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGuila Tour</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navback" style="background-color: #a0bed6;">
+            <a id="logo" href="file:///C:/Users/Remakker/Desktop/t2.danyelle-rodrigues/BiGuila_Tour/Front/index.html"><img src="./imagens/bguila-removebg-preview.png" alt="Logo BGuila Tour"></a>
+            <ul style="color: black;">
+               <a href="file:///C:/Users/Remakker/Desktop/t2.danyelle-rodrigues/BiGuila_Tour/Front/index.html"><li>Home</li></a>
+               <a href="file:///C:/Users/Remakker/Desktop/t2.danyelle-rodrigues/BiGuila_Tour/Front/excursoes.html"><li>Excursões</li></a>
+               <a href="file:///C:/Users/Remakker/Desktop/t2.danyelle-rodrigues/BiGuila_Tour/Front/reservas.html"><li>Reservas</li></a>
+               <a href="file:///C:/Users/Remakker/Desktop/t2.danyelle-rodrigues/BiGuila_Tour/Front/contato.html"><li>Contato</li></a>
+            </ul>
+        </nav>
+        </header>
+        <body>
+            <section>
+             <div>
+                <h1 style="text-align: center;">Dúvidas? Fale com a gente!</h1>  
+                <p style="text-align: center;">Entre em contato com a nossa equipe para saber mais sobre nossas Excursões.</p>
+             </div>
+           
+            <form class= "form" action="/formulario-contato" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="texto" id="nome" name="nome_usuario">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email_usuario">
+                </div>
+                <div>
+                    <label for="texto">Texto:</label>
+                    <textarea id="texto" name="texto_usuario"></textarea>
+                </div>
+                <div class="button">
+                    <button type="button" onclick="Evento()">ENVIAR</button>
+                  </div>
+            </form>
+
+        </section>
+
+        <footer > Recode Pro 2021 T2</footer>
+        <script>
+            function Evento(){
+                alert('EM BREVE ENTRAREMOS EM CONTATO.')
+            }
+        </script>
+        </body>
+        
